@@ -26,7 +26,7 @@ FraudLens is a machine learning-based application that analyzes financial transa
 - **Backend:** Python, FastAPI
 - **Machine Learning:** XGBoost
 - **Database:** SQLite
-- **Cloud Platform:** AWS EC2
+- **Cloud Platform:** AWS EC2, AWS S3, AWS IAM
 - **Web Server:** Nginx
 
 ## Project Goal
