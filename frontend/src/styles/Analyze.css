@@ -1,0 +1,11 @@
+/* src/styles/Analyze.css */
+.analyze-form { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0.9rem; max-width: 760px; margin: 1rem 0; }
+.form-row { display: flex; flex-direction: column; }
+.form-row label { margin-bottom: 0.25rem; font-size: 0.9rem; }
+.analyze-form input, .analyze-form select { width: 100%; min-height: 2.5rem; padding: 0.5rem 0.65rem; border: 1px solid #3d444d; border-radius: 6px; background: #0d1117; color: #c9d1d9; }
+.form-row small { margin-top: 0.25rem; color: #8b949e; }
+.analyze-form .primary-button { justify-self: start; }
+.error { color: #ff7b72; }
+.analysis-result { margin-top: 1.5rem; background: #21262d; padding: 1rem; border-radius: 6px; }
+.analysis-result h3 { margin-top: 0; }
+@media (max-width: 600px) { .analyze-form { grid-template-columns: 1fr; } }

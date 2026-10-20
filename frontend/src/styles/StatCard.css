@@ -1,0 +1,17 @@
+/* src/styles/StatCard.css */
+.stat-card {
+  background: #21262d;
+  padding: 1rem;
+  border-radius: 6px;
+  text-align: center;
+}
+.stat-title {
+  font-size: 0.9rem;
+  color: #8b949e;
+}
+.stat-value {
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin-top: 0.5rem;
+  color: #c9d1d9;
+}

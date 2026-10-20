@@ -1,0 +1,6 @@
+/* src/styles/System.css */
+.status-panel { margin: 1rem 0; padding: 1rem; border: 1px solid #30363d; border-radius: 8px; background: #161b22; }
+.status-panel h3 { margin-top: 0; }
+.status { margin-left: 0.35rem; font-weight: 700; }
+.status.online { color: #3fb950; }
+.status.offline { color: #ff7b72; }

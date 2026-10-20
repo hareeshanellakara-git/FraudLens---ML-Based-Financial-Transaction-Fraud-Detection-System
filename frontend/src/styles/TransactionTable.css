@@ -1,0 +1,7 @@
+/* src/styles/TransactionTable.css */
+.transaction-table { width: 100%; min-width: 760px; border-collapse: collapse; }
+.transaction-table th, .transaction-table td { padding: 0.65rem; border-bottom: 1px solid #30363d; text-align: left; white-space: nowrap; }
+.transaction-table th { color: #8b949e; font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.04em; }
+.table-link { padding: 0; border: 0; color: #79c0ff; background: none; font: inherit; cursor: pointer; text-decoration: underline; }
+.table-link:focus-visible { outline: 2px solid #79c0ff; outline-offset: 3px; }
+.transaction-table tbody tr:hover { background: #161b22; }

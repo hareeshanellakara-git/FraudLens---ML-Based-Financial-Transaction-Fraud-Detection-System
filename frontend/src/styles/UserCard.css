@@ -1,0 +1,4 @@
+/* src/styles/UserCard.css */
+.user-card { padding: 1rem; border: 1px solid #30363d; border-radius: 8px; background: #161b22; }
+.user-card h3 { margin-top: 0; }
+.user-card p { color: #8b949e; }

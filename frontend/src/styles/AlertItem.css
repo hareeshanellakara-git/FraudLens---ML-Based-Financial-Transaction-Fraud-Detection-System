@@ -1,0 +1,6 @@
+/* src/styles/AlertItem.css */
+.alert-item { display: flex; align-items: center; gap: 1rem; background: #161b22; border: 1px solid #30363d; padding: 0.9rem; border-radius: 8px; }
+.alert-copy { flex: 1; min-width: 0; }
+.alert-item .details { margin-top: 0.25rem; font-size: 0.85rem; color: #8b949e; }
+@media (max-width: 540px) { .alert-item { align-items: flex-start; flex-wrap: wrap; } }
+.alert-item button { flex: 0 0 auto; }

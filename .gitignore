@@ -1,0 +1,43 @@
+# Data and model artifacts
+data/
+models/
+src/models/
+*.pkl
+*.joblib
+
+# Python environment and generated files
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+
+# Environment files - keep safe examples
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+# Frontend dependencies and build output
+node_modules/
+frontend/node_modules/
+dist/
+frontend/dist/
+.vite/
+frontend/node_modules/.vite/
+
+# Local databases and backups
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+*.bak
+
+# Logs and temporary files
+*.log
+scratch/
+
+# Private keys and credentials
+*.pem
+*.key
